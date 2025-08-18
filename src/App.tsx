@@ -1,5 +1,5 @@
 import "./index.css";
-import { BasicTypes, ObjectLiterals } from "./typescript";
+import { BasicTypes, ObjectLiterals, BasicFunctions } from "./typescript";
 
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
 
       {/* <BasicTypes /> */}
 
-      <ObjectLiterals />
+      {/* <ObjectLiterals /> */}
+      <BasicFunctions />
     </main>
   )
 }
