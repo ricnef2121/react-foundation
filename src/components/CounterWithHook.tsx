@@ -1,13 +1,8 @@
-import { useState } from "react";
+import { useCounter } from '../hooks/useCounter';
 
-export const Counter = () => {
+export const CounterWithHook = () => {
 
-// we use ageneric type to define the type of usesate
-    const [count, setCount] = useState<number>(10);
-
-    const incrementBy = (value: number) => {
-        setCount(count + value);
-    }
+    const { count, incrementBy } = useCounter({ initialValue: 110 });
 
     return (
         <>
