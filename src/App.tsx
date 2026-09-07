@@ -1,4 +1,5 @@
-import { CounterWithHook } from "./components/CounterWithHook"
+import {BasicTypes} from "../react-native/01-bases/typescript/BasicTypes"
+// import { CounterWithHook } from "./components/CounterWithHook"
 // import { Counter } from "./components"; 
 // import { BasicTypes, ObjectLiterals, BasicFunctions } from "./typescript";
 
@@ -6,11 +7,12 @@ import { CounterWithHook } from "./components/CounterWithHook"
 function App() {
   return (
     <main>
-      <h1>Introduccion a TS - React</h1>
+      <h1> React + TypeScript</h1>
       {/* <BasicTypes /> */}
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
-      <CounterWithHook />
+      { /*<CounterWithHook /> */}
+      <BasicTypes />
     </main>
   )
 }
