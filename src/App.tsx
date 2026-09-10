@@ -1,5 +1,6 @@
-// import {BasicTypes} from "../react-native/01-bases/typescript/BasicTypes"
-import { ObjectLiterals } from "../react-native/01-bases/typescript/ObjectLiterals"
+// import { BasicTypes } from "../react-native/01-bases/typescript/BasicTypes"
+// import { ObjectLiterals } from "../react-native/01-bases/typescript/ObjectLiterals"
+import { BasicFunctions } from "../react-native/01-bases/typescript/BasicFunctions"
 // import { CounterWithHook } from "./components/CounterWithHook"
 // import { Counter } from "./components"; 
 // import { BasicTypes, ObjectLiterals, BasicFunctions } from "./typescript";
@@ -14,7 +15,8 @@ function App() {
       {/* <BasicFunctions /> */}
       { /*<CounterWithHook /> */}
       {/* <BasicTypes /> */}
-      <ObjectLiterals />
+      {/* <ObjectLiterals /> */}
+      <BasicFunctions />
     </main>
   )
 }
