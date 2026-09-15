@@ -4,11 +4,11 @@
 // import { CounterWithHook } from "./components/CounterWithHook"
 // import { Counter } from "./components"; 
 // import { BasicTypes, ObjectLiterals, BasicFunctions } from "./typescript";
-
+import { Counter } from "../react-native/01-bases/components/Counter";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-svh">
+    <div className="flex flex-col justify-center items-center h-svh">
       <h1 className="text-xl mb-5">
         React + TypeScript
       </h1>
@@ -19,6 +19,7 @@ function App() {
       {/* <BasicTypes /> */}
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
+      <Counter />
     </div>
   )
 }
